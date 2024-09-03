@@ -18,7 +18,7 @@ export default async function CoursePage({
 
   const course: Course | undefined = courses.find((course) => course.id === id);
 
-  await new Promise((resolve) => setTimeout(resolve, 5000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
 
   if (!course) {
     return (
@@ -32,7 +32,6 @@ export default async function CoursePage({
 
   return (
     <main>
-      {id}
       <CourseDetails course={course} />
       <CourseCurricullam course={course} />
       <LearningStepSection />

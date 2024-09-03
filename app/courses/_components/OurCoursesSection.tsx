@@ -5,7 +5,7 @@ import Link from "next/link";
 import courses from "@/data/courses.json";
 
 export default async function OurCoursesSection() {
-  await new Promise((resolve) => setTimeout(resolve, 5000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
 
   return (
     <section className="body-font text-gray-600">
