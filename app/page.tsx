@@ -1,9 +1,11 @@
-import CTASection from './_components/CTASection';
-import HeroSection from './_components/HeroSection';
-import LogoSection from './_components/LogoSection';
-import OurProcessSection from './_components/OurProcessSection';
-import OurServiceSection from './_components/OurServiceSection';
-import StatSection from './_components/StatSection';
+import CoursesSection from "./_components/CoursesSection";
+import CTASection from "./_components/CTASection";
+import HeroSection from "./_components/HeroSection";
+import LogoSection from "./_components/LogoSection";
+import OurProcessSection from "./_components/OurProcessSection";
+import OurServiceSection from "./_components/OurServiceSection";
+import PricingSection from "./_components/PricingSection";
+import StatSection from "./_components/StatSection";
 
 export default function Home() {
   return (
@@ -11,8 +13,10 @@ export default function Home() {
       <HeroSection />
       <LogoSection />
       <OurProcessSection />
+      <CoursesSection />
       <OurServiceSection />
       <StatSection />
+      <PricingSection />
       <CTASection />
     </main>
   );

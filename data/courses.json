@@ -1,0 +1,541 @@
+[
+  {
+    "id": "5ea3e4be-5180-4e53-a6f9-cfd06f19a02b",
+    "title": "HTML for Beginners",
+    "description": "HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as heading, paragraph, table, and so on. Browsers do not display the HTML tags, but use them to render the content of the page.",
+    "curriculam": [
+      {
+        "id": "828fdd3a-43b4-43d8-99b5-ab6bf41be25d",
+        "title": "What is Web page?",
+        "description": "A web page is a document that is suitable for the World Wide Web and web browsers. A web browser displays a web page on a monitor or mobile device. The web page usually means what is visible, but the term may also refer to a computer file, usually written in HTML or comparable markup language. Web browsers coordinate the various web resource elements for the written web page, such as style sheets, scripts, and images, to present the web page.",
+        "duration": "30 min"
+      },
+      {
+        "id": "815c3136-d791-494e-aea7-2ec97625f164",
+        "title": "What is HTML?",
+        "description": "HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as heading, paragraph, table, and so on. Browsers do not display the HTML tags, but use them to render the content of the page.",
+        "duration": "1 hr"
+      },
+      {
+        "id": "ee32185b-19b9-433b-bd38-61066e841483",
+        "title": "Getting Started with HTML",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following HTML code into the document: <!DOCTYPE html> <html> <head> <title>Page Title</title> </head> <body> <h1>This is a Heading</h1> <p>This is a paragraph.</p> </body> </html> 3. Save the file with an .html extension (for example, myfirstwebpage.html). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "ae867da8-2413-4ba9-8fda-430acef9e4d8",
+        "title": "Creating a Web Page",
+        "description": "In this tutorial, you will learn how to create a web page using HTML. HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as heading, paragraph, table, and so on. Browsers do not display the HTML tags, but use them to render the content of the page.",
+        "duration": "3 hrs"
+      },
+      {
+        "id": "34b79b32-4528-4263-ab0a-9c3251b6c48e",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using HTML. HTML is the standard markup language for creating Web pages. HTML stands for Hyper Text Markup Language. HTML describes the structure of Web pages using markup. HTML elements are the building blocks of HTML pages. HTML elements are represented by tags. HTML tags label pieces of content such as heading, paragraph, table, and so on. Browsers do not display the HTML tags, but use them to render the content of the page.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/html.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Phoebe Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "fbaaeb04-c029-40d8-8c93-421c8980bc5a",
+    "title": "CSS for Beginners",
+    "description": "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced. This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and click on a button to view the result.",
+    "curriculam": [
+      {
+        "id": "a752ce1c-3193-4165-8d49-9e21e6098878",
+        "title": "What is CSS?",
+        "description": "CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced. This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and click on a button to view the result.",
+        "duration": "30 min"
+      },
+      {
+        "id": "cef8008d-f6d0-4874-82e1-fc936e49810e",
+        "title": "Getting Started with CSS",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following CSS code into the document: body { background-color: lightblue; } h1 { color: white; text-align: center; } p { font-family: verdana; font-size: 20px; } 3. Save the file with an .css extension (for example, myfirststylesheet.css). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "becb7ca6-c95c-43e4-a8ea-e8aa22470af0",
+        "title": "Designing a Web Page with CSS",
+        "description": "In this tutorial, you will learn how to create a web page using CSS. CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced. This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and click on a button to view the result.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "555b9115-d8da-4f9c-bc9f-2f60fa192115",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using CSS. CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced. This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and click on a button to view the result.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/css.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "e1bc641e-66f2-42af-bc21-be6b53286102",
+    "title": "JavaScript for Beginners",
+    "description": "JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced. This JavaScript tutorial contains hundreds of JavaScript examples. With our online editor, you can edit the JavaScript, and click on a button to view the result.",
+    "curriculam": [
+      {
+        "id": "51ff1c9e-9ed4-4ed6-8f07-21f2f020a1e6",
+        "title": "What is JavaScript?",
+        "description": "JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced. This JavaScript tutorial contains hundreds of JavaScript examples. With our online editor, you can edit the JavaScript, and click on a button to view the result.",
+        "duration": "30 min"
+      },
+      {
+        "id": "409b4d0e-1643-4e21-af79-905731f0f2a1",
+        "title": "Getting Started with JavaScript",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following JavaScript code into the document: document.getElementById('demo').innerHTML = 'Hello JavaScript'; 3. Save the file with an .js extension (for example, myfirstjavascript.js). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "00cc6342-8862-4e59-a279-b4a9f567e11d",
+        "title": "Programming a Web Page with JavaScript",
+        "description": "In this tutorial, you will learn how to create a web page using JavaScript. JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced. This JavaScript tutorial contains hundreds of JavaScript examples. With our online editor, you can edit the JavaScript, and click on a button to view the result.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "e0deaca6-238f-42c4-8286-00a0e614ad10",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using JavaScript. JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced. This JavaScript tutorial contains hundreds of JavaScript examples. With our online editor, you can edit the JavaScript, and click on a button to view the result.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/javascript.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "6ba8ad19-f4b7-4be8-afc5-8de38732065c",
+    "title": "React for Beginners",
+    "description": "React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage or in the tutorial.",
+    "curriculam": [
+      {
+        "id": "1efbbd80-5274-4c9a-b52b-c2a3cff2eb1b",
+        "title": "What is React?",
+        "description": "React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage or in the tutorial.",
+        "duration": "30 min"
+      },
+      {
+        "id": "e8f6ee1f-c0c3-47f7-92a6-41f98a43e17d",
+        "title": "Getting Started with React",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following React code into the document: ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('root')); 3. Save the file with an .js extension (for example, myfirstreact.js). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "a16a89d7-0f5b-4b35-9bc5-5c6fe8b1b76f",
+        "title": "Building a Web Page with React",
+        "description": "In this tutorial, you will learn how to create a web page using React. React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage or in the tutorial.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "0748bf1b-f2a3-448b-9c3c-ca23f797f173",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using React. React is a JavaScript library for building user interfaces. Learn what React is all about on our homepage or in the tutorial.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/react.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "2c83c39e-5a14-41af-8279-5750f7a412c6",
+    "title": "Node.js for Beginners",
+    "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+    "curriculam": [
+      {
+        "id": "6e8c5649-fd0c-4b83-a47f-11a1e5aac7ed",
+        "title": "What is Node.js?",
+        "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "duration": "30 min"
+      },
+      {
+        "id": "b7196147-5fd6-4835-adec-4f282f226bce",
+        "title": "Getting Started with Node.js",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following Node.js code into the document: var http = require('http'); http.createServer(function (req, res) { res.writeHead(200, {'Content-Type': 'text/html'}); res.end('Hello World!'); }).listen(8080); 3. Save the file with an .js extension (for example, myfirstnode.js). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "dab54fe9-cefb-4073-ab4f-fc669925cd80",
+        "title": "Building a Web Page with Node.js",
+        "description": "In this tutorial, you will learn how to create a web page using Node.js. Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "d9b31476-3072-49b4-8167-b645b5abe8f8",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using Node.js. Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/nodejs.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "083ea262-b14a-4032-82d8-017d799f5dc9",
+    "title": "Express.js for Beginners",
+    "description": "Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
+    "curriculam": [
+      {
+        "id": "cfaf1850-b6bf-4c88-ae55-b8518d584a51",
+        "title": "What is Express.js?",
+        "description": "Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
+        "duration": "30 min"
+      },
+      {
+        "id": "6c2f456c-0fd0-4d34-9933-b83f38ea0837",
+        "title": "Getting Started with Express.js",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following Express.js code into the document: var express = require('express'); var app = express(); app.get('/', function (req, res) { res.send('Hello World!'); }); app.listen(3000, function () { console.log('Example app listening on port 3000!'); }); 3. Save the file with an .js extension (for example, myfirstexpress.js). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "53063bd1-b5ff-45ce-b1d2-caa52eeee0bd",
+        "title": "Building a Web Page with Express.js",
+        "description": "In this tutorial, you will learn how to create a web page using Express.js. Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "1de111b3-52ab-4d51-9795-994f2b335299",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using Express.js. Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/express.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "ee04dc54-0b65-4313-9a97-c06da3ef3317",
+    "title": "MongoDB for Beginners",
+    "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",
+    "curriculam": [
+      {
+        "id": "aa24a18f-f566-4aad-8571-389707548418",
+        "title": "What is MongoDB?",
+        "description": "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",
+        "duration": "30 min"
+      },
+      {
+        "id": "9758bcfc-01ec-4b24-aaf2-50124575cbcd",
+        "title": "Getting Started with MongoDB",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following MongoDB code into the document: var MongoClient = require('mongodb').MongoClient; var url = 'mongodb://localhost:27017/mydb'; MongoClient.connect(url, function(err, db) { if (err) throw err; console.log('Database created!'); db.close(); }); 3. Save the file with an .js extension (for example, myfirstmongodb.js). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "edc8ccee-e848-402e-96e5-766d9dfef1e9",
+        "title": "Building a Web Page with MongoDB",
+        "description": "In this tutorial, you will learn how to create a web page using MongoDB. MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "5815f83b-2149-4fc2-9708-f887d11dc6be",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using MongoDB. MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/mongodb.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "833a2be7-2edd-4196-9e12-049d7f96ea49",
+    "title": "GraphQL for Beginners",
+    "description": "GraphQL is an open-source data query and manipulation language for APIs, and a runtime for executing those queries with your existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.",
+    "curriculam": [
+      {
+        "id": "fa2a117c-c10b-4bcc-9340-5fcba185570c",
+        "title": "What is GraphQL?",
+        "description": "GraphQL is an open-source data query and manipulation language for APIs, and a runtime for executing those queries with your existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.",
+        "duration": "30 min"
+      },
+      {
+        "id": "4792f560-7504-4db6-9c33-974a816dd047",
+        "title": "Getting Started with GraphQL",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following GraphQL code into the document: type Query { hello: String } 3. Save the file with an .graphql extension (for example, myfirstgraphql.graphql). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "edc91505-925c-4975-b322-cca5ad9a7b43",
+        "title": "Building a Web Page with GraphQL",
+        "description": "In this tutorial, you will learn how to create a web page using GraphQL. GraphQL is an open-source data query and manipulation language for APIs, and a runtime for executing those queries with your existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "f8d82099-bf6b-4c4a-b905-4a81df24af69",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using GraphQL. GraphQL is an open-source data query and manipulation language for APIs, and a runtime for executing those queries with your existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/graphql.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "6bc894ac-36b8-47b1-aa0f-0f2bee726b18",
+    "title": "Docker for Beginners",
+    "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their software, libraries, and configuration files.",
+    "curriculam": [
+      {
+        "id": "707258e1-9300-45c7-8973-d204631489fd",
+        "title": "What is Docker?",
+        "description": "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their software, libraries, and configuration files.",
+        "duration": "30 min"
+      },
+      {
+        "id": "6cc79fc7-99ca-481b-a28c-c7766c69c674",
+        "title": "Getting Started with Docker",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following Docker code into the document: FROM ubuntu:18.04 RUN apt-get update RUN apt-get install -y nginx CMD [\"nginx\", \"-g\", \"daemon off;\"] 3. Save the file with an .docker extension (for example, myfirstdocker.docker). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "2260952a-2a51-4ba6-9341-606ca6f40b3d",
+        "title": "Building a Web Page with Docker",
+        "description": "In this tutorial, you will learn how to create a web page using Docker. Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their software, libraries, and configuration files.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "638d314c-dccd-4a7e-9e2d-d9ea90bc32b5",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using Docker. Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their software, libraries, and configuration files.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/docker.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "1bec8c63-745c-4244-a3d5-420b73a78e5b",
+    "title": "Kubernetes for Beginners",
+    "description": "Kubernetes (commonly stylized as K8s) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.",
+    "curriculam": [
+      {
+        "id": "7aec5023-5247-431d-b2a2-682fe03a50a1",
+        "title": "What is Kubernetes?",
+        "description": "Kubernetes (commonly stylized as K8s) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.",
+        "duration": "30 min"
+      },
+      {
+        "id": "b132766d-a756-4bfc-987f-5b17519ec416",
+        "title": "Getting Started with Kubernetes",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following Kubernetes code into the document: apiVersion: apps/v1 kind: Deployment metadata: name: nginx-deployment spec: replicas: 3 selector: matchLabels: app: nginx template: metadata: labels: app: nginx spec: containers: - name: nginx image: nginx:1.14.2 ports: - containerPort: 80 3. Save the file with an .yaml extension (for example, myfirstkubernetes.yaml). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "3a81dc38-8759-4e14-81b8-fecdf4a1897e",
+        "title": "Building a Web Page with Kubernetes",
+        "description": "In this tutorial, you will learn how to create a web page using Kubernetes. Kubernetes (commonly stylized as K8s) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "595580c7-b0f9-42ff-9023-d5deafeee3d1",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using Kubernetes. Kubernetes (commonly stylized as K8s) is an open-source container-orchestration system for automating computer application deployment, scaling, and management.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/kubernetes.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "9c127a53-24c6-4c93-99ae-a8505444f2fc",
+    "title": "AWS for Beginners",
+    "description": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
+    "curriculam": [
+      {
+        "id": "7c5261c5-6cc9-44d3-9ea2-065de15c561a",
+        "title": "What is AWS?",
+        "description": "Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
+        "duration": "30 min"
+      },
+      {
+        "id": "c1a6ec7b-0465-43ff-bb1c-7a085ec2819f",
+        "title": "Getting Started with AWS",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following AWS code into the document: ec2 = boto3.resource('ec2') for instance in ec2.instances.all(): print(instance.id, instance.state) 3. Save the file with an .py extension (for example, myfirstaws.py). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "23e76290-846f-4ea9-90c5-c82586322754",
+        "title": "Building a Web Page with AWS",
+        "description": "In this tutorial, you will learn how to create a web page using AWS. Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "db2d64dc-4d7d-45a7-be77-302fe49bcbf9",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using AWS. Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/aws.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "3f26eab0-a56b-454e-8c0d-e48f2f34f431",
+    "title": "Azure for Beginners",
+    "description": "Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+    "curriculam": [
+      {
+        "id": "49ee3511-aeb1-4280-a533-4523acf6952b",
+        "title": "What is Azure?",
+        "description": "Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+        "duration": "30 min"
+      },
+      {
+        "id": "66239be3-a674-4f86-812f-19cc71e4c751",
+        "title": "Getting Started with Azure",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following Azure code into the document: from azure.identity import DefaultAzureCredential from azure.mgmt.resource import ResourceManagementClient credential = DefaultAzureCredential() client = ResourceManagementClient(credential, 'your_subscription_id') for item in client.resource_groups.list(): print(item.name) 3. Save the file with an .py extension (for example, myfirstazure.py). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "0e39d156-de28-453d-a389-867deec23fdb",
+        "title": "Building a Web Page with Azure",
+        "description": "In this tutorial, you will learn how to create a web page using Azure. Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "7fb751e0-40df-4a7f-95e6-347ea3399c28",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using Azure. Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/azure.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  },
+  {
+    "id": "871f83fc-d2cf-446c-8f43-6532117e0912",
+    "title": "GCP for Beginners",
+    "description": "Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
+    "curriculam": [
+      {
+        "id": "6a153b31-5751-4944-82cf-3758a3031d8f",
+        "title": "What is GCP?",
+        "description": "Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
+        "duration": "30 min"
+      },
+      {
+        "id": "ef7f8244-8816-493d-97e6-f9683b7b5134",
+        "title": "Getting Started with GCP",
+        "description": "To create a web page, you need to follow these steps: 1. Create a new text document. 2. Type or copy the following GCP code into the document: from google.cloud import storage storage_client = storage.Client() buckets = list(storage_client.list_buckets()) print(buckets) 3. Save the file with an .py extension (for example, myfirstgcp.py). 4. Open the file in a web browser (such as Internet Explorer, Chrome, Firefox, or Safari).",
+        "duration": "1 hr"
+      },
+      {
+        "id": "fa5e2bb7-5fb7-407c-86f1-c89a386e0607",
+        "title": "Building a Web Page with GCP",
+        "description": "In this tutorial, you will learn how to create a web page using GCP. Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
+        "duration": "2 hrs"
+      },
+      {
+        "id": "4803f2c0-34c3-422d-a7bc-ec71f977b55d",
+        "title": "Knowledge Check",
+        "description": "In this tutorial, you will learn how to create a web page using GCP. Google Cloud Platform, offered by Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube.",
+        "duration": "30 min"
+      }
+    ],
+    "courseImage": "/assets/svgs/gcp.svg",
+    "courseCovers": [
+      "/assets/images/courseCover-1.jpg"
+    ],
+    "instructor": {
+      "name": "Holden Caulfield",
+      "role": "Instructor",
+      "avatar": "https://i.pravatar.cc/150?img=57",
+      "bio": "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland."
+    }
+  }
+]
