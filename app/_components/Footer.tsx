@@ -1,42 +1,44 @@
-import Link from 'next/link';
-import { footerNavigation } from '../_constants';
+import Link from "next/link";
+import { footerNavigation } from "../_constants";
 
 export default function Footer() {
   return (
-    <footer className='bg-gray-50' aria-labelledby='footer-heading'>
-      <h2 id='footer-heading' className='sr-only'>
+    <footer className="bg-gray-100" aria-labelledby="footer-heading">
+      <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className='max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8'>
-        <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
-          <div className='grid grid-cols-2 gap-8 xl:col-span-2'>
-            <div className='md:grid md:grid-cols-2 md:gap-8'>
+      <div className="mx-auto max-w-7xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+          <div className="grid grid-cols-2 gap-8 xl:col-span-2">
+            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700">
                   Solutions
                 </h3>
-                <ul role='list' className='mt-4 space-y-4'>
+                <ul role="list" className="mt-4 space-y-4">
                   {footerNavigation.solutions.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className='text-base text-gray-500 hover:text-gray-900'>
+                        className="text-base text-gray-700 hover:text-gray-900"
+                      >
                         {item.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+              <div className="mt-12 md:mt-0">
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700">
                   Support
                 </h3>
-                <ul role='list' className='mt-4 space-y-4'>
+                <ul role="list" className="mt-4 space-y-4">
                   {footerNavigation.support.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className='text-base text-gray-500 hover:text-gray-900'>
+                        className="text-base text-gray-700 hover:text-gray-900"
+                      >
                         {item.name}
                       </Link>
                     </li>
@@ -44,33 +46,35 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className='md:grid md:grid-cols-2 md:gap-8'>
+            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700">
                   Company
                 </h3>
-                <ul role='list' className='mt-4 space-y-4'>
+                <ul role="list" className="mt-4 space-y-4">
                   {footerNavigation.company.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className='text-base text-gray-500 hover:text-gray-900'>
+                        className="text-base text-gray-700 hover:text-gray-900"
+                      >
                         {item.name}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+              <div className="mt-12 md:mt-0">
+                <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700">
                   Legal
                 </h3>
-                <ul role='list' className='mt-4 space-y-4'>
+                <ul role="list" className="mt-4 space-y-4">
                   {footerNavigation.legal.map((item) => (
                     <li key={item.name}>
                       <Link
                         href={item.href}
-                        className='text-base text-gray-500 hover:text-gray-900'>
+                        className="text-base text-gray-700 hover:text-gray-900"
+                      >
                         {item.name}
                       </Link>
                     </li>
@@ -79,50 +83,52 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className='mt-12 xl:mt-0'>
-            <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase'>
+          <div className="mt-12 xl:mt-0">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-700">
               Subscribe to our newsletter
             </h3>
-            <p className='mt-4 text-base text-gray-500'>
+            <p className="mt-4 text-base text-gray-700">
               The latest news, articles, and resources, sent to your inbox
               weekly.
             </p>
-            <form className='mt-4 sm:flex sm:max-w-md'>
-              <label htmlFor='email-address' className='sr-only'>
+            <form className="mt-4 sm:flex sm:max-w-md">
+              <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
               <input
-                type='email'
-                name='email-address'
-                id='email-address'
-                autoComplete='email'
+                type="email"
+                name="email-address"
+                id="email-address"
+                autoComplete="email"
                 required
-                className='appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:placeholder-gray-400'
-                placeholder='Enter your email'
+                className="w-full min-w-0 appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:placeholder-gray-400 focus:outline-none focus:ring-indigo-500"
+                placeholder="Enter your email"
               />
-              <div className='mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0'>
+              <div className="mt-3 rounded-md sm:ml-3 sm:mt-0 sm:flex-shrink-0">
                 <button
-                  type='submit'
-                  className='w-full flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700'>
+                  type="submit"
+                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
+                >
                   Subscribe
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <div className='mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16'>
-          <div className='flex space-x-6 md:order-2'>
+        <div className="mt-12 border-t border-gray-200 pt-8 md:flex md:items-center md:justify-between lg:mt-16">
+          <div className="flex space-x-6 md:order-2">
             {footerNavigation.social.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className='text-gray-400 hover:text-gray-500'>
-                <span className='sr-only'>{item.name}</span>
-                <item.icon className='h-6 w-6' aria-hidden='true' />
+                className="text-gray-600 hover:text-gray-500"
+              >
+                <span className="sr-only">{item.name}</span>
+                <item.icon className="h-6 w-6" aria-hidden="true" />
               </Link>
             ))}
           </div>
-          <p className='mt-8 text-base text-gray-400 md:mt-0 md:order-1'>
+          <p className="mt-8 text-base text-gray-700 md:order-1 md:mt-0">
             &copy; {new Date().getFullYear()} NextLMS, Inc. All rights reserved.
           </p>
         </div>
