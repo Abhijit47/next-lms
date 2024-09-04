@@ -1,14 +1,25 @@
 import SectionWrapper from "@/app/_components/SectionWrapper";
-import Image from "next/image";
+import testimonials from "@/data/testimonials.json";
+import { ArrowPathIcon } from "@heroicons/react/24/outline";
+import dynamic from "next/dynamic";
+
+const TestimonialCard = dynamic(() => import("./TestimonialCard"), {
+  ssr: false,
+  loading: () => (
+    <div className={"flex h-full w-full items-center justify-center"}>
+      <ArrowPathIcon className="h-8 w-8 animate-spin" />
+    </div>
+  ),
+});
 
 export default function TestimonialSection() {
   return (
     <section className="body-font text-gray-600">
       <SectionWrapper className="px-5 pb-24">
         <h1 className="title-font mb-12 text-center text-3xl font-medium text-gray-900">
-          Testimonials
+          Our Students Love Us
         </h1>
-        <div className="-m-4 flex flex-wrap">
+        {/* <div className="-m-4 flex flex-wrap">
           <div className="w-full p-4 md:w-1/2">
             <div className="h-full rounded bg-gray-100 p-8">
               <svg
@@ -77,7 +88,8 @@ export default function TestimonialSection() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
+        <TestimonialCard testimonials={testimonials} />
       </SectionWrapper>
     </section>
   );

@@ -1,6 +1,9 @@
 import { SVGProps } from "react";
 
 import {
+  AcademicCapIcon,
+  BeakerIcon,
+  BookOpenIcon,
   ChartBarSquareIcon,
   ChatBubbleBottomCenterIcon,
   ChatBubbleLeftRightIcon,
@@ -8,8 +11,10 @@ import {
   ChatBubbleOvalLeftIcon,
   HeartIcon,
   InboxIcon,
+  LightBulbIcon,
   PencilIcon,
   QuestionMarkCircleIcon,
+  SparklesIcon,
   TrashIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
@@ -210,7 +215,7 @@ export const footerNavigation = {
   ],
 };
 
-const courses = [
+export const courses = [
   {
     id: crypto.randomUUID(),
     title: "HTML for Beginners",
@@ -789,6 +794,127 @@ const courses = [
       avatar: "https://i.pravatar.cc/150?img=57",
       bio: "Raclette knausgaard hella meggs normcore williamsburg enamel pin sartorial venmo tbh hot chicken gentrify portland.",
     },
+  },
+];
+
+export const testimonials = [
+  {
+    id: crypto.randomUUID(),
+    name: "Stella Rivera",
+    role: "UI DEVELOPER",
+    image: "https://i.pravatar.cc/150?img=11",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Valwood Pkwy",
+    role: "DESIGNER",
+    image: "https://i.pravatar.cc/150?img=12",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Frank Walters",
+    role: "UI DEVELOPER",
+    image: "https://i.pravatar.cc/150?img=13",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Ross Simmons",
+    role: "DESIGNER",
+    image: "https://i.pravatar.cc/150?img=14",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Janice Roberts",
+    role: "UI DEVELOPER",
+    image: "https://i.pravatar.cc/150?img=15",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Alex Gutierrez",
+    role: "DESIGNER",
+    image: "https://i.pravatar.cc/150?img=16",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Valerie Wells",
+    role: "UI DEVELOPER",
+    image: "https://i.pravatar.cc/150?img=17",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Ana Wilson",
+    role: "DESIGNER",
+    image: "https://i.pravatar.cc/150?img=18",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Eddie Ross",
+    role: "UI DEVELOPER",
+    image: "https://i.pravatar.cc/150?img=19",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+  {
+    id: crypto.randomUUID(),
+    name: "Dale Byrd",
+    role: "DESIGNER",
+    image: "https://i.pravatar.cc/150?img=20",
+    message:
+      "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.",
+  },
+];
+
+export const learningSteps = [
+  {
+    id: crypto.randomUUID(),
+    stepName: "lesson",
+    stepDescription:
+      "A lesson is a unit of instruction or a single class on a particular subject. It is a period of time during which students are taught about a particular topic or subject.",
+    icon: BeakerIcon,
+  },
+  {
+    id: crypto.randomUUID(),
+    stepName: "study",
+    stepDescription:
+      "Study is the process of learning or acquiring knowledge about a particular subject. It is the act of reading, memorizing, or practicing in order to gain a better understanding of a topic.",
+    icon: BookOpenIcon,
+  },
+  {
+    id: crypto.randomUUID(),
+    stepName: "knowledge",
+    stepDescription:
+      "Knowledge is the information and skills acquired through experience or education. It is the theoretical or practical understanding of a subject.",
+    icon: LightBulbIcon,
+  },
+  {
+    id: crypto.randomUUID(),
+    stepName: "experience",
+    stepDescription:
+      "Experience is the knowledge or skill acquired through practical exposure to a subject. It is the process of gaining knowledge or skill through direct observation or participation.",
+    icon: SparklesIcon,
+  },
+  {
+    id: crypto.randomUUID(),
+    stepName: "skills",
+    stepDescription:
+      "Skills are the abilities or proficiencies acquired through training or practice. They are the expertise or talent in a particular area.",
+    icon: AcademicCapIcon,
   },
 ];
 

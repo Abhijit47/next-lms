@@ -1,4 +1,5 @@
 import SectionWrapper from "@/app/_components/SectionWrapper";
+import { learningSteps } from "@/app/_constants";
 import Image from "next/image";
 
 export default function LearningStepSection() {
@@ -7,7 +8,27 @@ export default function LearningStepSection() {
       <SectionWrapper className="flex flex-wrap px-5 pb-24">
         <div className="flex w-full flex-wrap">
           <div className="md:w-1/2 md:py-6 md:pr-10 lg:w-2/5">
-            <div className="relative flex pb-12">
+            {learningSteps.map((step, idx) => (
+              <div className="relative flex pb-12" key={step.id}>
+                {idx !== learningSteps.length - 1 && (
+                  <div className="absolute inset-0 flex h-full w-10 items-center justify-center">
+                    <div className="pointer-events-none h-full w-1 bg-gray-200"></div>
+                  </div>
+                )}
+                <div className="relative z-10 inline-flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-white">
+                  {<step.icon className="h-4 w-4" />}
+                </div>
+                <div className="flex-grow pl-4">
+                  <h2 className="mb-1 text-sm font-semibold capitalize tracking-wider text-gray-900 lg:text-xl">
+                    {step.stepName}
+                  </h2>
+                  <p className="text-sm leading-relaxed lg:text-lg">
+                    {step.stepDescription}
+                  </p>
+                </div>
+              </div>
+            ))}
+            {/* <div className="relative flex pb-12">
               <div className="absolute inset-0 flex h-full w-10 items-center justify-center">
                 <div className="pointer-events-none h-full w-1 bg-gray-200"></div>
               </div>
@@ -141,7 +162,7 @@ export default function LearningStepSection() {
                   cold-pressed retro.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
           <Image
             className="mt-12 rounded-lg object-contain object-center md:mt-0 md:w-1/2 lg:w-3/5"
