@@ -17,7 +17,7 @@ import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 const isProtectedRoute = createRouteMatcher(["/dashboard(.*)", "/forum(.*)"]);
 
 export default clerkMiddleware((auth, req) => {
-  // req.headers.set("Link", '<https://nxt-lms.vercel.app>; rel="canonical"');
+  req.headers.set("Link", '<https://nxt-lms.vercel.app>; rel="canonical"');
   if (isProtectedRoute(req)) {
     // auth().protect((has) => {
     //   return has({ role: "admin" });
