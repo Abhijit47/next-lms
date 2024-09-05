@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
@@ -22,23 +23,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} relative antialiased`}>
-        <Navbar />
-        {children}
-        <Footer />
-        <Script
-          strategy="lazyOnload"
-          src="https://www.googletagmanager.com/gtag/js?id=G-0VKQ44984D"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];
+    <ClerkProvider>
+      <html lang="en">
+        <body className={`${inter.className} relative antialiased`}>
+          <Navbar />
+          {children}
+          <Footer />
+          <Script
+            strategy="lazyOnload"
+            src="https://www.googletagmanager.com/gtag/js?id=G-0VKQ44984D"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
             gtag('config', 'G-0VKQ44984D');`}
-        </Script>
-      </body>
-    </html>
+          </Script>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

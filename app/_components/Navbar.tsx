@@ -14,6 +14,13 @@ import { Fragment } from "react";
 import NavLogo from "@/public/assets/images/logo.png";
 import { Bars3BottomLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  SignUpButton,
+  UserButton,
+} from "@clerk/nextjs";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { solutions } from "../_constants";
 import { classNames } from "../_lib/utils";
@@ -127,7 +134,17 @@ export default function Navbar() {
             </Link>
           </PopoverGroup>
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-            <Link
+            <SignedOut>
+              <SignUpButton mode="modal">
+                <button className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">
+                  <span>Sign up</span>
+                </button>
+              </SignUpButton>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+            {/* <Link
               href="/sign-in"
               className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
             >
@@ -138,7 +155,7 @@ export default function Navbar() {
               className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
             >
               Sign up
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -219,17 +236,34 @@ export default function Navbar() {
                   </Link>
                 </div>
                 <div className="mt-6">
-                  <Link
+                  <SignedOut>
+                    <SignUpButton mode="modal">
+                      <button className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">
+                        <span>Sign in</span>
+                      </button>
+                    </SignUpButton>
+                  </SignedOut>
+                  <SignedIn>
+                    <UserButton />
+                  </SignedIn>
+                  {/* <Link
                     href="/sign-up"
                     className="flex w-full items-center justify-center rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                   >
                     Sign up
-                  </Link>
+                  </Link> */}
                   <p className="mt-6 text-center text-base font-medium text-gray-500">
                     Existing customer?
-                    <Link href="/sign-in" className="text-gray-900">
+                    <SignedOut>
+                      <SignInButton mode="modal">
+                        <button className="text-gray-900">
+                          <span>Sign in</span>
+                        </button>
+                      </SignInButton>
+                    </SignedOut>
+                    {/* <Link href="/sign-in" className="text-gray-900">
                       Sign in
-                    </Link>
+                    </Link> */}
                   </p>
                 </div>
               </div>

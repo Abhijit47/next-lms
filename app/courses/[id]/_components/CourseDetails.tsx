@@ -15,6 +15,7 @@ export default function CourseDetails({ course }: { course: Course }) {
               width={1200}
               height={500}
               priority
+              // loader={({ src }) => src}
             />
           </div>
           <div className={"flex w-full justify-center"}>
