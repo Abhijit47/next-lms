@@ -10,14 +10,14 @@ export default function OurServiceSection() {
             with Our Expert Services
           </span>
         </h2>
+
         <p className="mt-4 max-w-3xl text-lg text-purple-200">
-          <p className="mt-4 max-w-3xl text-lg text-purple-200">
-            Our expert instructors guide you in crafting a personalized learning
-            strategy that fits your unique needs. We equip you with top-notch
-            resources and tools to excel in your studies and reach your academic
-            aspirations.
-          </p>
+          Our expert instructors guide you in crafting a personalized learning
+          strategy that fits your unique needs. We equip you with top-notch
+          resources and tools to excel in your studies and reach your academic
+          aspirations.
         </p>
+
         <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
           {features.map((feature) => (
             <div key={feature.name}>

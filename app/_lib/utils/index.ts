@@ -14,3 +14,7 @@ export function generateSlug(input: string) {
 export function generateUUID() {
   return crypto.randomBytes(8).toString("hex");
 }
+
+export function capitalize(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
