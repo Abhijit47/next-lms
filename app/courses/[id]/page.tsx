@@ -1,9 +1,12 @@
+import { currentUser } from "@clerk/nextjs/server";
+
 import LearningStepSection from "../_components/LearningStepSection";
 import TestimonialSection from "../_components/TestimonialSection";
 import CourseCurricullam from "./_components/CourseCurricullam";
 import CourseDetails from "./_components/CourseDetails";
 
 import courses from "@/data/courses.json";
+import { redirect, RedirectType } from "next/navigation";
 
 export const dynamicParams = true; // true | false,
 
@@ -14,6 +17,12 @@ export default async function CoursePage({
   params: { id: string };
   searchParams: any;
 }) {
+  const user = await currentUser();
+
+  if (!user) {
+    return redirect("/sign-in", RedirectType.replace);
+  }
+
   const { id } = params;
 
   const course: Course | undefined = courses.find((course) => course.id === id);
