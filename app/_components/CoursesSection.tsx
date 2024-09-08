@@ -21,17 +21,16 @@ export default function CoursesSection() {
       <SectionWrapper className="px-5 pb-24">
         <div className="mb-20 flex w-full flex-col text-center">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-            Our Courses and Programs
+            Explore Our Diverse Courses and Programs
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            We offer a wide range of courses and programs to help you achieve
-            your goals and dreams. Our courses are designed to help you learn
-            and grow. We offer courses in a variety of subjects, including
-            business, technology, and design. Our programs are designed to help
-            you develop the skills and knowledge you need to succeed in your
-            chosen field. Whether you&apos;re looking to start a new career,
-            advance in your current field, or just learn something new, we have
-            a course or program for you.
+            Discover a diverse array of courses and programs tailored to help
+            you achieve your aspirations. Our expertly crafted courses span
+            various subjects, including business, technology, and design,
+            ensuring you gain the skills and knowledge needed to excel. Whether
+            you&apos;re embarking on a new career path, advancing in your
+            current field, or simply exploring new interests, we have the
+            perfect course or program for you.
           </p>
         </div>
         <div className="-m-4 flex flex-wrap">

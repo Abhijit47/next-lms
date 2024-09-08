@@ -26,13 +26,16 @@ export default function OurProcessSection() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of other students
+                  <span className="block">Excel Beyond Expectations</span>
+                  <span className="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
+                    Stay Ahead of Your Peers
+                  </span>
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Growing your knowledge and skills is a key part of your
-                  academic journey. We provide you with the resources and tools
-                  to help you stay on top of your studies and achieve your
-                  academic goals.
+                  Elevate your academic journey with our comprehensive resources
+                  and cutting-edge tools. We empower you to master your studies,
+                  stay ahead of the curve, and achieve your highest academic
+                  aspirations.
                 </p>
                 <div className="mt-6">
                   <Link
@@ -48,9 +51,10 @@ export default function OurProcessSection() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    “ The team was very helpful and supportive. They provided me
-                    with the resources and tools I needed to succeed in my
-                    studies. ”
+                    “The team was incredibly supportive and provided me with all
+                    the resources and tools I needed to excel in my studies.
+                    Their guidance made a significant difference in my learning
+                    journey.”
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -109,13 +113,13 @@ export default function OurProcessSection() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Get the support you need to succeed
+                  Unlock Your Full Potential with Our Dedicated Support
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  We provide you with the resources and tools you need to
-                  succeed in your studies. Our team is here to help you every
-                  step of the way, so you can achieve your academic goals and
-                  reach your full potential.
+                  Empowering your success with comprehensive resources and
+                  unwavering support. Our dedicated team is with you every step
+                  of the way, ensuring you achieve your academic goals and
+                  unlock your full potential.
                 </p>
                 <div className="mt-6">
                   <Link
