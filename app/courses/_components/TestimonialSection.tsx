@@ -17,7 +17,7 @@ export default function TestimonialSection() {
     <section className="body-font text-gray-600">
       <SectionWrapper className="px-5 pb-24">
         <h1 className="title-font mb-12 text-center text-3xl font-medium text-gray-900">
-          Our Students Love Us
+          Hear What Our Students Have to Say
         </h1>
         {/* <div className="-m-4 flex flex-wrap">
           <div className="w-full p-4 md:w-1/2">

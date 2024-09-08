@@ -13,19 +13,19 @@ export default async function OurCoursesSection() {
         <div className="mb-20 flex w-full flex-wrap">
           <div className="mb-6 w-full lg:mb-0 lg:w-1/2">
             <h1 className="title-font mb-2 text-2xl font-medium text-gray-900 sm:text-3xl">
-              Top Courses for You to Learn
+              Discover Our Top Courses and Elevate Your Learning
             </h1>
             <div className="h-1 w-20 rounded bg-purple-500"></div>
           </div>
           <p className="w-full leading-relaxed text-gray-500 lg:w-1/2">
-            We provide the best courses for you to learn and grow. Our courses
-            are designed by professionals and experts in the field. You can
-            learn at your own pace and get certified after completion. We offer
-            a wide range of courses in various subjects including business,
-            technology, and design. Our courses are designed to help you achieve
-            your goals and dreams.{" "}
-            <span className={"font-semibold text-orange-400"}>
-              Start learning today!
+            Unlock your potential with our expertly crafted courses, designed by
+            industry professionals to help you thrive. Learn at your own pace
+            and earn certifications upon completion. Explore a diverse range of
+            subjects, including business, technology, and design, tailored to
+            meet your aspirations. Our courses are your gateway to achieving
+            your dreams and reaching new heights.{" "}
+            <span className="font-semibold text-orange-400">
+              Begin your learning journey today!
             </span>
           </p>
         </div>

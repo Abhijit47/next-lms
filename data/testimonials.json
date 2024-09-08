@@ -1,72 +1,86 @@
 [
   {
-    "id": "72b118d2-1fbc-4a0c-b247-cb6b1bd11f85",
-    "name": "Stella Rivera",
-    "role": "UI DEVELOPER",
-    "image": "https://i.pravatar.cc/150?img=11",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
-  },
-  {
-    "id": "42cf3a42-fad1-4daa-b767-3e2d975ceb2b",
-    "name": "Valwood Pkwy",
-    "role": "DESIGNER",
+    "id": "1a2b3c4d-5e6f-7g8h-9i0j-k1l2m3n4o5p6",
+    "name": "Alex Johnson",
+    "role": "Software Engineer",
     "image": "https://i.pravatar.cc/150?img=12",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "This platform has transformed my learning experience. The courses are well-structured and the support is phenomenal. Highly recommend!"
   },
   {
-    "id": "af3c2df4-40e8-4b54-b942-c08ede571a96",
-    "name": "Frank Walters",
-    "role": "UI DEVELOPER",
+    "id": "2b3c4d5e-6f7g-8h9i-0j1k-l2m3n4o5p6q7",
+    "name": "Maria Gonzalez",
+    "role": "Data Scientist",
     "image": "https://i.pravatar.cc/150?img=13",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The variety of courses available is impressive. I've been able to upskill in multiple areas and advance my career significantly."
   },
   {
-    "id": "9d930175-9fe5-4ae1-9e5f-f8597d326ad5",
-    "name": "Ross Simmons",
-    "role": "DESIGNER",
+    "id": "3c4d5e6f-7g8h-9i0j-1k2l-m3n4o5p6q7r8",
+    "name": "James Smith",
+    "role": "Project Manager",
     "image": "https://i.pravatar.cc/150?img=14",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The interactive elements and real-world projects make learning engaging and practical. I've gained valuable skills that I use daily."
   },
   {
-    "id": "98a59c11-46e6-447f-b76d-112d2317d4d0",
-    "name": "Janice Roberts",
-    "role": "UI DEVELOPER",
+    "id": "4d5e6f7g-8h9i-0j1k-2l3m-n4o5p6q7r8s9",
+    "name": "Emily Davis",
+    "role": "Graphic Designer",
     "image": "https://i.pravatar.cc/150?img=15",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The community support is fantastic. It's great to connect with peers and instructors who are always willing to help."
   },
   {
-    "id": "5e2045cf-004f-437c-9754-4bbd98593be1",
-    "name": "Alex Gutierrez",
-    "role": "DESIGNER",
+    "id": "5e6f7g8h-9i0j-1k2l-3m4n-o5p6q7r8s9t0",
+    "name": "Michael Brown",
+    "role": "Marketing Specialist",
     "image": "https://i.pravatar.cc/150?img=16",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The personalized learning paths have helped me focus on my goals and achieve them faster. The platform is user-friendly and intuitive."
   },
   {
-    "id": "612b5c93-87ca-4f76-b7a3-7bf8937cbe2d",
-    "name": "Valerie Wells",
-    "role": "UI DEVELOPER",
+    "id": "6f7g8h9i-0j1k-2l3m-4n5o-p6q7r8s9t0u1",
+    "name": "Sarah Wilson",
+    "role": "Content Writer",
     "image": "https://i.pravatar.cc/150?img=17",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The resource library is a treasure trove of information. I've found everything I need to excel in my field and stay updated with industry trends."
   },
   {
-    "id": "61a8e69a-f368-491a-b1e3-ccfb47020939",
-    "name": "Ana Wilson",
-    "role": "DESIGNER",
+    "id": "7g8h9i0j-1k2l-3m4n-5o6p-q7r8s9t0u1v2",
+    "name": "David Martinez",
+    "role": "Business Analyst",
     "image": "https://i.pravatar.cc/150?img=18",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The live sessions with industry experts are invaluable. They provide insights and knowledge that you can't get from textbooks alone."
   },
   {
-    "id": "7575470a-c513-4704-8dbf-a75c5f8d4e86",
-    "name": "Eddie Ross",
-    "role": "UI DEVELOPER",
+    "id": "8h9i0j1k-2l3m-4n5o-6p7q-r8s9t0u1v2w3",
+    "name": "Laura Lee",
+    "role": "HR Manager",
     "image": "https://i.pravatar.cc/150?img=19",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The certification programs have added great value to my resume. I've been able to showcase my skills and knowledge to potential employers."
   },
   {
-    "id": "d0a309a5-1dfa-4797-b5f8-e8c39046267d",
-    "name": "Dale Byrd",
-    "role": "DESIGNER",
+    "id": "9i0j1k2l-3m4n-5o6p-7q8r-s9t0u1v2w3x4",
+    "name": "Robert Clark",
+    "role": "Financial Analyst",
     "image": "https://i.pravatar.cc/150?img=20",
-    "message": "Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland."
+    "message": "The progress tracking feature keeps me motivated. Seeing my achievements and milestones helps me stay on track and reach my goals."
+  },
+  {
+    "id": "0j1k2l3m-4n5o-6p7q-8r9s-t0u1v2w3x4y5",
+    "name": "Jessica Lewis",
+    "role": "Product Manager",
+    "image": "https://i.pravatar.cc/150?img=21",
+    "message": "The mobile access is a game-changer. I can learn anytime, anywhere, which fits perfectly with my busy schedule."
+  },
+  {
+    "id": "1k2l3m4n-5o6p-7q8r-9s0t-u1v2w3x4y5z6",
+    "name": "Daniel Walker",
+    "role": "Operations Manager",
+    "image": "https://i.pravatar.cc/150?img=22",
+    "message": "The platform's user interface is sleek and easy to navigate. It makes the learning experience enjoyable and stress-free."
+  },
+  {
+    "id": "2l3m4n5o-6p7q-8r9s-0t1u-v2w3x4y5z6a7",
+    "name": "Sophia Hall",
+    "role": "UX Designer",
+    "image": "https://i.pravatar.cc/150?img=23",
+    "message": "The hands-on projects have been incredibly beneficial. They allow me to apply what I've learned in real-world scenarios."
   }
 ]

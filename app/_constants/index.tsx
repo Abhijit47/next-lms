@@ -16,6 +16,7 @@ import {
   SparklesIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
+import { generateUUID } from "../_lib/utils";
 
 export const solutions = [
   {
@@ -913,6 +914,61 @@ export const learningSteps = [
     stepDescription:
       "Skills are the abilities or proficiencies acquired through training or practice. They are the expertise or talent in a particular area.",
     icon: AcademicCapIcon,
+  },
+];
+
+export const teams = [
+  {
+    id: generateUUID(),
+    name: "Holden Caulfield",
+    role: "UI Developer",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://i.pravatar.cc/200?img=27",
+    socials: [
+      { id: generateUUID(), name: "facebook", link: "#" },
+      { id: generateUUID(), name: "twitter", link: "#" },
+      { id: generateUUID(), name: "instagram", link: "#" },
+    ],
+  },
+  {
+    id: generateUUID(),
+    name: "Alper Kamu",
+    role: "Designer",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://i.pravatar.cc/200?img=33",
+    socials: [
+      { id: generateUUID(), name: "facebook", link: "#" },
+      { id: generateUUID(), name: "twitter", link: "#" },
+      { id: generateUUID(), name: "instagram", link: "#" },
+    ],
+  },
+  {
+    id: generateUUID(),
+    name: "Atticus Finch",
+    role: "UI Developer",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://i.pravatar.cc/200?img=59",
+    socials: [
+      { id: generateUUID(), name: "facebook", link: "#" },
+      { id: generateUUID(), name: "twitter", link: "#" },
+      { id: generateUUID(), name: "instagram", link: "#" },
+    ],
+  },
+  {
+    id: generateUUID(),
+    name: "Henry Letham",
+    role: "Designer",
+    description:
+      "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+    image: "https://i.pravatar.cc/200?img=68",
+    socials: [
+      { id: generateUUID(), name: "facebook", link: "#" },
+      { id: generateUUID(), name: "twitter", link: "#" },
+      { id: generateUUID(), name: "instagram", link: "#" },
+    ],
   },
 ];
 
