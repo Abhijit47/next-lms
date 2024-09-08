@@ -6,7 +6,7 @@ export default function LogoSection() {
     <section className="bg-gray-50">
       <SectionWrapper className="px-4 py-16">
         <p className="text-center text-sm font-semibold uppercase tracking-wide text-gray-700">
-          Trusted by over 5 very average small businesses
+          Our Trusted Partners and Customers 5 very average small businesses
         </p>
         <div className="mt-6 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">

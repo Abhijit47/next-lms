@@ -4,7 +4,6 @@ import HeroSection from "./_components/HeroSection";
 import LogoSection from "./_components/LogoSection";
 import OurProcessSection from "./_components/OurProcessSection";
 import OurServiceSection from "./_components/OurServiceSection";
-import PricingSection from "./_components/PricingSection";
 import StatSection from "./_components/StatSection";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
       <CoursesSection />
       <OurServiceSection />
       <StatSection />
-      <PricingSection />
+      {/* <PricingSection /> */}
       <CTASection />
     </main>
   );

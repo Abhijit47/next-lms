@@ -26,17 +26,17 @@ export default function OurProcessSection() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Stay on top of customer support
+                  Stay on top of other students
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis
-                  bibendum malesuada faucibus lacinia porttitor. Pulvinar
-                  laoreet sagittis viverra duis. In venenatis sem arcu pretium
-                  pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  Growing your knowledge and skills is a key part of your
+                  academic journey. We provide you with the resources and tools
+                  to help you stay on top of your studies and achieve your
+                  academic goals.
                 </p>
                 <div className="mt-6">
                   <Link
-                    href="#"
+                    href="/courses"
                     className="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                   >
                     Get started
@@ -48,9 +48,9 @@ export default function OurProcessSection() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
-                    diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                    venenatis in euismod ut.&rdquo;
+                    “ The team was very helpful and supportive. They provided me
+                    with the resources and tools I needed to succeed in my
+                    studies. ”
                   </p>
                 </div>
                 <footer className="mt-3">
@@ -109,17 +109,17 @@ export default function OurProcessSection() {
               </div>
               <div className="mt-6">
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                  Better understand your customers
+                  Get the support you need to succeed
                 </h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis
-                  bibendum malesuada faucibus lacinia porttitor. Pulvinar
-                  laoreet sagittis viverra duis. In venenatis sem arcu pretium
-                  pharetra at. Lectus viverra dui tellus ornare pharetra.
+                  We provide you with the resources and tools you need to
+                  succeed in your studies. Our team is here to help you every
+                  step of the way, so you can achieve your academic goals and
+                  reach your full potential.
                 </p>
                 <div className="mt-6">
                   <Link
-                    href="#"
+                    href="/courses"
                     className="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700"
                   >
                     Get started

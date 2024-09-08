@@ -21,13 +21,14 @@ export default function HeroSection() {
           </div>
           <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-32">
             <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-              <span className="block text-white">Let&apos;s Start</span>
-              <span className="block text-indigo-200">New Journey Today</span>
+              <span className="block text-white">Embark on Your</span>
+              <span className="block text-indigo-200">
+                Learning Adventure Today
+              </span>
             </h1>
             <p className="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl">
-              In our ever-changing world, we need to adapt to new technologies
-              and methodologies to stay relevant. Start your journey with us and
-              learn new skills today.
+              Embrace the future with cutting-edge skills and knowledge. Join us
+              and transform your potential into success.
             </p>
             <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
               <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">

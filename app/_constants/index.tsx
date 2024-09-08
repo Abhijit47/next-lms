@@ -6,16 +6,14 @@ import {
   BookOpenIcon,
   ChartBarSquareIcon,
   ChatBubbleBottomCenterIcon,
-  ChatBubbleLeftRightIcon,
   ChatBubbleOvalLeftEllipsisIcon,
-  ChatBubbleOvalLeftIcon,
+  ComputerDesktopIcon,
+  DevicePhoneMobileIcon,
   HeartIcon,
   InboxIcon,
   LightBulbIcon,
-  PencilIcon,
   QuestionMarkCircleIcon,
   SparklesIcon,
-  TrashIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
 
@@ -49,52 +47,52 @@ export const solutions = [
 
 export const features = [
   {
-    name: "Unlimited Inboxes",
+    name: "Interactive Courses",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: InboxIcon,
+      "Engage with interactive courses that include videos, quizzes, and hands-on projects.",
+    icon: HeartIcon,
   },
   {
-    name: "Manage Team Members",
+    name: "Progress Tracking",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: UsersIcon,
-  },
-  {
-    name: "Spam Report",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: TrashIcon,
-  },
-  {
-    name: "Compose in Markdown",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: PencilIcon,
-  },
-  {
-    name: "Team Reporting",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "Monitor your learning progress with detailed analytics and reports.",
     icon: ChartBarSquareIcon,
   },
   {
-    name: "Saved Replies",
+    name: "Certification",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ChatBubbleLeftRightIcon,
+      "Earn certificates upon course completion to showcase your achievements.",
+    icon: AcademicCapIcon,
   },
   {
-    name: "Email Commenting",
+    name: "Community Support",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ChatBubbleOvalLeftIcon,
+      "Join a community of learners and get support from peers and instructors.",
+    icon: UsersIcon,
   },
   {
-    name: "Connect with Customers",
+    name: "Mobile Access",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: HeartIcon,
+      "Learn on the go with our mobile-friendly platform accessible from any device.",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: "Personalized Learning",
+    description:
+      "Receive personalized course recommendations based on your interests and goals.",
+    icon: LightBulbIcon,
+  },
+  {
+    name: "Resource Library",
+    description:
+      "Access a vast library of resources including articles, e-books, and tutorials.",
+    icon: BookOpenIcon,
+  },
+  {
+    name: "Live Sessions",
+    description:
+      "Participate in live sessions and webinars hosted by industry experts.",
+    icon: ComputerDesktopIcon,
   },
 ];
 
@@ -103,25 +101,25 @@ export const metrics = [
     id: 1,
     stat: "8K+",
     emphasis: "Companies",
-    rest: "use laoreet amet lacus nibh integer quis.",
+    rest: "use our platform to train their employees.",
   },
   {
     id: 2,
-    stat: "25K+",
-    emphasis: "Countries around the globe",
-    rest: "lacus nibh integer quis.",
+    stat: "50K+",
+    emphasis: "Courses",
+    rest: "available across various subjects and skills.",
   },
   {
     id: 3,
-    stat: "98%",
-    emphasis: "Customer satisfaction",
-    rest: "laoreet amet lacus nibh integer quis.",
+    stat: "1M+",
+    emphasis: "Learners",
+    rest: "have enhanced their skills with our LMS.",
   },
   {
     id: 4,
-    stat: "12M+",
-    emphasis: "Issues resolved",
-    rest: "lacus nibh integer quis.",
+    stat: "95%",
+    emphasis: "Satisfaction Rate",
+    rest: "among our users for the quality of our courses.",
   },
 ];
 
