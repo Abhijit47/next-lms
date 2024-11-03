@@ -1,17 +1,17 @@
-import { SignUp } from "@clerk/nextjs";
+import { UserProfile } from "@clerk/nextjs";
 
-export default function SignUpPage() {
+export default function ProfilePage() {
   return (
     <main>
-      <div className={"my-8 grid h-screen place-items-center"}>
-        <SignUp
+      <section className={"grid h-dvh place-items-center"}>
+        <UserProfile
           appearance={{
             layout: {
               unsafe_disableDevelopmentModeWarnings: true,
             },
           }}
         />
-      </div>
+      </section>
     </main>
   );
 }

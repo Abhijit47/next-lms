@@ -45,7 +45,7 @@ export default function CoursesSection() {
                   width={600}
                   height={360}
                 />
-                <div className="hover:scale-120 relative z-10 w-full border-4 border-gray-200 bg-white px-8 py-10 opacity-0 hover:opacity-100">
+                <div className="hover:scale-120 relative z-10 w-full rounded-lg border-4 border-gray-200 bg-white px-8 py-10 opacity-0 transition-all delay-150 duration-150 ease-out hover:translate-x-1 hover:opacity-100">
                   <h2 className="title-font mb-1 text-sm font-medium tracking-widest text-purple-500">
                     THE SUBTITLE
                   </h2>

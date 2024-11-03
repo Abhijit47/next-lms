@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function LearningStepSection() {
   return (
     <section className="body-font text-gray-600">
-      <SectionWrapper className="flex flex-wrap px-5 pb-24">
+      <SectionWrapper className="flex flex-wrap px-5">
         <div className="flex w-full flex-wrap">
           <div className="md:w-1/2 md:py-6 md:pr-10 lg:w-2/5">
             {learningSteps.map((step, idx) => (

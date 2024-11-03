@@ -8,13 +8,16 @@ import {
   Transition,
 } from "@headlessui/react";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { Fragment } from "react";
 
 import NavLogo from "@/public/assets/images/logo.png";
 import { Bars3BottomLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import {
+  ClerkLoaded,
+  GoogleOneTap,
   SignedIn,
   SignedOut,
   SignInButton,
@@ -22,11 +25,18 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import { useSelectedLayoutSegments } from "next/navigation";
 import { solutions } from "../_constants";
 import { classNames } from "../_lib/utils";
 import ThemeSwitch from "./ThemeSwitch";
 
 export default function Navbar() {
+  const segments = useSelectedLayoutSegments();
+
+  if (segments.includes("(admin)")) {
+    return null;
+  }
+
   return (
     <header className={"sticky top-0 z-50 bg-white"}>
       <Popover className="relative bg-white">
@@ -36,7 +46,7 @@ export default function Navbar() {
               <span className="sr-only">NxtLMS</span>
               <Image
                 className="h-12 w-auto sm:h-16"
-                // src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
+                // src="https://tailwindui.com/plus/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
                 src="/assets/images/logo.png"
                 alt="nav-logo"
                 width={NavLogo.width}
@@ -136,15 +146,29 @@ export default function Navbar() {
           </PopoverGroup>
           <div className="hidden items-center justify-end gap-x-2 md:flex md:flex-1 lg:w-0">
             <ThemeSwitch />
+            <GoogleOneTap />
             <SignedOut>
-              <SignUpButton mode="modal">
+              <SignUpButton mode="redirect">
                 <button className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">
                   <span>Sign up</span>
                 </button>
               </SignUpButton>
             </SignedOut>
             <SignedIn>
-              <UserButton />
+              <ClerkLoaded>
+                <UserButton
+                  appearance={{
+                    // elements: {
+                    //   userButtonPopoverFooter: {
+                    //     display: "none",
+                    //   },
+                    // },
+                    layout: {
+                      unsafe_disableDevelopmentModeWarnings: true,
+                    },
+                  }}
+                />
+              </ClerkLoaded>
             </SignedIn>
             {/* <Link
               href="/sign-in"
@@ -180,7 +204,7 @@ export default function Navbar() {
                   <div>
                     <Image
                       className="h-12 w-auto sm:h-16"
-                      // src="https://tailwindui.com/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
+                      // src="https://tailwindui.com/plus/img/logos/workflow-mark-purple-600-to-indigo-600.svg"
                       src="/assets/images/logo.png"
                       alt="nav-logo"
                       width={NavLogo.width}

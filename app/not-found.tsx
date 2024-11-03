@@ -12,7 +12,7 @@ export default function NotFound() {
                 <span className="sr-only">Workflow</span>
                 <Image
                   className="h-12 w-auto"
-                  src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                  src="https://tailwindui.com/plus/img/logos/workflow-mark.svg?color=indigo&shade=600"
                   alt=""
                   width={163}
                   height={32}

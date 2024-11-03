@@ -15,7 +15,7 @@ const TestimonialCard = dynamic(() => import("./TestimonialCard"), {
 export default function TestimonialSection() {
   return (
     <section className="body-font text-gray-600">
-      <SectionWrapper className="px-5 pb-24">
+      <SectionWrapper className="px-5 py-12 md:py-16 lg:py-20 xl:py-24">
         <h1 className="title-font mb-12 text-center text-3xl font-medium text-gray-900">
           Hear What Our Students Have to Say
         </h1>
